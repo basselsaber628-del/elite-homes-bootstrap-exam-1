@@ -1,0 +1,151 @@
+@media (max-width: 992px) {
+  .content h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .middle,
+  .buying,
+  .acheviment,
+  .all-contact,
+  .all-cards {
+    flex-wrap: wrap;
+  }
+
+  .first.w-33 {
+    width: calc(50% - 1.5rem) !important;
+    flex-grow: 0 !important;
+  }
+
+  .img-holder img,
+  .buying-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .buying-left,
+  .buying-right,
+  .card-1,
+  .card-2 {
+    width: 100%;
+  }
+
+  .contact-1 {
+    width: calc(50% - 12px);
+  }
+
+  .accordion {
+    width: 85%;
+  }
+
+  .fw-edit,
+  .get-touch {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .content p,
+  .discover,
+  .paragraphs p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .card,
+  .right-card {
+    padding: 18px;
+  }
+
+  .box,
+  .location-box,
+  .contact-1 {
+    width: 100%;
+    min-width: 100%;
+    flex: 100%;
+  }
+
+  .acheviment {
+    gap: 10px;
+  }
+
+  .acheviment > div {
+    width: calc(50% - 10px);
+  }
+
+  .middle,
+  .buying {
+    flex-direction: column;
+  }
+
+  .first.w-33 {
+    width: auto !important;
+    margin: 0.75rem !important;
+  }
+
+  .accordion {
+    width: 95%;
+  }
+
+  .fw-edit,
+  .get-touch {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .btn-text {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .btn-bottom,
+  .start-btn,
+  .veiw-btn,
+  .submit-btn {
+    width: 100%;
+  }
+
+  .buying-right p,
+  .selling-right p {
+    position: static !important;
+    transform: none !important;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .carousel-indicators {
+    transform: translateY(120%);
+  }
+}
+
+@media (max-width: 576px) {
+  .acheviment > div {
+    width: 100%;
+  }
+
+  .collection::before,
+  .collection::after {
+    width: 30px;
+  }
+
+  .price-salary {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
